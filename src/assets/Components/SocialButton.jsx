@@ -1,12 +1,9 @@
-
-
 function SocialButton(props) {
   return (
             <a href={props.url}>
-                <i class={props.rrss}>
+                <i className={props.rrss}>
                 </i>
             </a>
-
   );
 }
 
