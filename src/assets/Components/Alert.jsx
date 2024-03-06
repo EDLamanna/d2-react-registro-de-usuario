@@ -12,7 +12,10 @@ const Alert = ({ message }) => {
   } else if (message === "Las contraseñas deben ser iguales") {
     alertClass = "errorBox";
     textClass = "errorText";
-  } else if (message === "La contraseña debe tener al menos 8 caracteres y contener caracteres especiales como @, +, -, *") {
+  } else if (
+    message ===
+    "La contraseña debe tener al menos 8 caracteres y contener caracteres especiales como @, +, -, *"
+  ) {
     alertClass = "errorBox";
     textClass = "errorText";
   } else {
